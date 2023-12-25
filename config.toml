@@ -6,55 +6,21 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 # you can use rvmm-config-gen to generate a config
 
-[Music-Extended]
-enabled = false
-app-name = "Music"
+[Music]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+rv-brand = "inotia00 ReVanced"
 arch = "arm64-v8a"
 
-[YouTube-Extended]
-app-name = "YouTube"
+[YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 rv-brand = "inotia00 ReVanced"
 arch = "arm64-v8a"
-version = "latest"
 included-patches = "'Premium heading'"
-rv-brand = "ReVanced Extended"
-
-[Twitter]
-enabled = false
-build-mode = "apk"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
-
-[Twitch]
-enabled = false
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
-
-[TikTok]
-enabled = false
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
 
 [Reddit]
-enabled = false
+apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
 arch = "arm64-v8a"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
-
-[Messenger]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
-arch = "arm64-v8a"
-
-[Spotify]
-enabled = false
-uptodown-dlurl = "https://spotify.en.uptodown.com/android"
-
-[IconPackStudio]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
