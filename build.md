@@ -1,3 +1,5 @@
+YouTube-Extended: 18.45.43  
+Reddit: 2023.50.1  
 Music-Extended: 6.31.55  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube and YT Music  
