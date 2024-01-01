@@ -16,7 +16,7 @@ build-mode = "both"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 arch = "arm64-v8a"
 apkmirror-dpi = "440dpi"
-excluded-patches = "'Custom branding name YouTube Music' 'Custom package name' 'Return YouTube Dislike'"
+excluded-patches = "'Custom package name' 'Return YouTube Dislike'"
 
 [YouTube-Extended]
 app-name = "YouTube"
@@ -29,7 +29,12 @@ apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 arch = "arm64-v8a"
 apkmirror-dpi = "440dpi"
 included-patches = "'Premium heading'"
-excluded-patches = "'Custom branding name YouTube' 'Custom package name' 'Disable HDR video' 'Disable QUIC protocol' 'Return YouTube Dislike'"
+excluded-patches = "'Custom package name' 'Disable HDR video' 'Disable QUIC protocol' 'Return YouTube Dislike'"
 
 [Reddit]
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
+apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+rv-brand = "inotia00 ReVanced"
+apkmirror-dpi = "440dpi"
+arch = "arm64-v8a"
