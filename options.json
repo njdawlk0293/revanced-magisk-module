@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "patchName": "Custom branding icon YouTube",
+    "options": [
+      {
+        "key": "AppIcon",
+        "value": "res/"
+      }
+    ]
+  }
+]
