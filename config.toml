@@ -8,8 +8,8 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 [Music-Extended]
 enabled = true
 app-name = "Music"
-patches-source = "YT-advanced/revanced-patches"
-integrations-source = "YT-advanced/revanced-integrations"
+patches-source = "YT-advanced/ReX-patches"
+integrations-source = "YT-advanced/ReX-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "apk"
@@ -21,10 +21,9 @@ arch = "arm64-v8a"
 [Reddit]
 enabled = true
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
-patches-source = "YT-advanced/revanced-patches"
-integrations-source = "YT-advanced/revanced-integrations"
-rv-brand = "YT-advanced ReVanced"
-cli-source = "inotia00/revanced-cli"
+patches-source = "YT-advanced/ReX-patches"
+integrations-source = "YT-advanced/ReX-integrations"
+rv-brand = "ReVanced Extended"
 build-mode = "apk"
 arch = "arm64-v8a"
 
