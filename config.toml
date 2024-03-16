@@ -1,4 +1,4 @@
-compression-level = 9
+compression-level = 1
 enable-magisk-update = true
 
 [Reddit]
@@ -13,7 +13,8 @@ integrations-source = "anddea/revanced-integrations"
 rv-brand = "ReX"
 build-mode = "apk"
 arch = "arm64-v8a"
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+excluded-patches = "'Return YouTube Dislike' 'Spoof app version'"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
 [YouTube-ReX]
 enabled = true
