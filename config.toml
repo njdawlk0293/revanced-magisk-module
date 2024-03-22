@@ -1,7 +1,7 @@
 compression-level = 1
 enable-magisk-update = false
 
-[Reddit]
+[Reddit-Rex]
 enabled = true
 patches-source = "YT-Advanced/rex-patches"
 integrations-source = "YT-Advanced/rex-integrations"
@@ -26,6 +26,37 @@ enabled = true
 app-name = "YouTube"
 patches-source = "YT-Advanced/rex-patches"
 integrations-source = "YT-Advanced/rex-integrations"
+rv-brand = "ReX"
+build-mode = "apk"
+arch = "arm64-v8a"
+excluded-patches = "'Custom package name' 'Disable QUIC protocol' 'Enable tablet mini player' 'Enable tablet navigation bar' 'Return YouTube Dislike' 'Theme'"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+
+[Reddit-Anddea]
+enabled = true
+patches-source = "anddea/revanced-patches"
+integrations-source = "anddea/revanced-integrations"
+rv-brand = "ReX"
+build-mode = "apk"
+arch = "arm64-v8a"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
+
+[Music-Anddea]
+enabled = true
+app-name = "Music"
+patches-source = "anddea/revanced-patches"
+integrations-source = "anddea/revanced-integrations"
+rv-brand = "ReX"
+build-mode = "apk"
+arch = "arm64-v8a"
+excluded-patches = "'Return YouTube Dislike' 'Spoof app version'"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
+
+[YouTube-Anddea]
+enabled = true
+app-name = "YouTube"
+patches-source = "anddea/revanced-patches"
+integrations-source = "anddea/revanced-integrations"
 rv-brand = "ReX"
 build-mode = "apk"
 arch = "arm64-v8a"
