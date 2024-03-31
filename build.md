@@ -1,9 +1,7 @@
 Music-ReX: 6.45.54  
-YouTube-ReX: 19.07.40  
-Reddit-Rex: 2024.13.0  
-Reddit-Anddea: 2024.13.0  
 Music-Anddea: 6.45.54  
 YouTube-Anddea: 19.11.38  
+YouTube-ReX: 19.07.40  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanced YouTube and YT Music from Play Store  
