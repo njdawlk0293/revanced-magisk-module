@@ -5,29 +5,8 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 # you can use rvmm-config-gen to generate a config
 
-[Music-Extended]
-enabled = false
-app-name = "Music"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
-arch = "both"
-
-[YouTube-Extended]
-enabled = false
-app-name = "YouTube"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-
 [Music-anddea]
-enabled = true
+enabled = false
 app-name = "Music"
 patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
@@ -43,7 +22,7 @@ patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
 rv-brand = "anddea"
 build-mode = "apk"
-included-patches = "'MaterialYou'"
+included-patches = "'Premium heading' 'MaterialYou'"
 excluded-patches = "'Disable QUIC protocol' 'Enable tablet mini player' 'Enable tablet navigation bar' 'Enable wide search bar'"
 uptodown-dlurl = "https://youtube.ru.uptodown.com/android"
 arch = "arm64-v8a"
