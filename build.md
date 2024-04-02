@@ -1,4 +1,3 @@
-Music-anddea: 6.45.54  
 YouTube-anddea: 19.11.38  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
