@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "patchName": "Translations",
+    "options": [
+      {
+        "key": "SelectedLanguages",
+        "value": "ru-rRU"
+      },
+      {
+        "key": "SelectedAppLanguages",
+        "value": "ru"
+      }
+    ]
+  }
+]
