@@ -11,5 +11,33 @@
         "value": "ru"
       }
     ]
+  },
+  
+  {
+    "patchName": "Translations for YouTube",
+    "options": [
+      {
+        "key": "SelectedTranslations",
+        "value": "ru-rRU"
+      },
+      {
+        "key": "SelectedStringResources",
+        "value": "ru"
+      }
+    ]
+  },
+
+  {
+    "patchName": "Translations for YouTube Music",
+    "options": [
+      {
+        "key": "SelectedTranslations",
+        "value": "ru-rRU"
+      },
+      {
+        "key": "SelectedStringResources",
+        "value": "ru"
+      }
+    ]
   }
 ]
