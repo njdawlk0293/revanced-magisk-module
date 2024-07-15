@@ -3,12 +3,12 @@ enable-magisk-update = false
 ##################################################################################################################################################
 
 [Music-anddea]
-enabled = false
+enabled = true
 app-name = "Music"
 patches-source = "anddea/revanced-patches"
-patches-version = "v2.227.0-dev.18"
+patches-version = "v2.227.0-dev.22"
 integrations-source = "anddea/revanced-integrations"
-integrations-version = "v0.154.0-dev.5"
+integrations-version = "v0.154.0-dev.7"
 included-patches = "'Custom branding icon for YouTube Music'"
 excluded-patches = "'Custom package name' 'Enable debug logging' 'Enable Cairo splash animation' 'Restore old style library shelf' 'Return YouTube Dislike'"
 rv-brand = "anddea"
@@ -20,9 +20,9 @@ apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 enabled = true
 app-name = "YouTube"
 patches-source = "anddea/revanced-patches"
-patches-version = "v2.227.0-dev.18"
+patches-version = "v2.227.0-dev.22"
 integrations-source = "anddea/revanced-integrations"
-integrations-version = "v0.154.0-dev.5"
+integrations-version = "v0.154.0-dev.7"
 included-patches = "'Custom branding icon for YouTube' 'MaterialYou'"
 excluded-patches = "'Custom package name' 'Disable QUIC protocol' 'Enable debug logging' 'Enable gradient loading screen' 'Return YouTube Dislike'"
 rv-brand = "anddea"
