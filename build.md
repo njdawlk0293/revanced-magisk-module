@@ -1,4 +1,4 @@
-Music-anddea: 7.08.53  
+Music-anddea: 7.10.51  
 YouTube-anddea: 19.16.39  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
@@ -7,11 +7,11 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanc
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)
   
 CLI: j-hc/revanced-cli-4.6.0-all.jar  
-Integrations: anddea/revanced-integrations-0.154.0-dev.7.apk  
-Patches: anddea/revanced-patches-2.227.0-dev.22.jar  
-[Changelog](https://github.com/anddea/revanced-patches/releases/tag/v2.227.0-dev.22)
+Integrations: anddea/revanced-integrations-0.154.0-dev.8.apk  
+Patches: anddea/revanced-patches-2.227.0-dev.23.jar  
+[Changelog](https://github.com/anddea/revanced-patches/releases/tag/v2.227.0-dev.23)
 
 CLI: j-hc/revanced-cli-4.6.0-all.jar  
-Integrations: anddea/revanced-integrations-0.154.0-dev.7.apk  
-Patches: anddea/revanced-patches-2.227.0-dev.22.jar  
-[Changelog](https://github.com/anddea/revanced-patches/releases/tag/v2.227.0-dev.22)  
+Integrations: anddea/revanced-integrations-0.154.0-dev.8.apk  
+Patches: anddea/revanced-patches-2.227.0-dev.23.jar  
+[Changelog](https://github.com/anddea/revanced-patches/releases/tag/v2.227.0-dev.23)  
