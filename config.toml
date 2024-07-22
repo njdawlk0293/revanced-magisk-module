@@ -1,81 +1,41 @@
 enable-magisk-update = false
+patches-source = "anddea/revanced-patches" #inotia00/revanced-patches
+integrations-source = "anddea/revanced-integrations" #inotia00/revanced-integrations
+#cli-source = "inotia00/revanced-cli"
+rv-brand = "anddea" #ReVanced Extended
+build-mode = "apk"
+arch = "arm64-v8a"
+
+patches-version = "v2.227.0-dev.24"
+integrations-version = "v0.154.0-dev.9"
 
 ##################################################################################################################################################
 
-[Music-anddea]
+[Music]
 enabled = true
 app-name = "Music"
-patches-source = "anddea/revanced-patches"
-patches-version = "v2.227.0-dev.23"
-integrations-source = "anddea/revanced-integrations"
-integrations-version = "v0.154.0-dev.8"
 included-patches = "'Custom branding icon for YouTube Music'"
 excluded-patches = "'Enable debug logging' 'Enable Cairo splash animation' 'Restore old style library shelf' 'Return YouTube Dislike'"
-rv-brand = "anddea"
-build-mode = "apk"
-arch = "arm64-v8a"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 
-[YouTube-anddea]
+[YouTube]
 enabled = true
 app-name = "YouTube"
-patches-source = "anddea/revanced-patches"
-patches-version = "v2.227.0-dev.23"
-integrations-source = "anddea/revanced-integrations"
-integrations-version = "v0.154.0-dev.8"
 included-patches = "'Custom branding icon for YouTube' 'MaterialYou'"
 excluded-patches = "'Disable QUIC protocol' 'Enable debug logging' 'Enable gradient loading screen' 'Return YouTube Dislike'"
-rv-brand = "anddea"
-build-mode = "apk"
-arch = "arm64-v8a"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 
-[Reddit-anddea]
+[Reddit]
 enabled = false
 app-name = "Reddit"
 #version = "latest"
-patches-source = "anddea/revanced-patches"
-patches-version = "v2.227.0-dev.16"
-integrations-source = "anddea/revanced-integrations"
-integrations-version = "v0.154.0-dev.5"
-rv-brand = "anddea"
-build-mode = "apk"
-arch = "arm64-v8a"
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
 
 ##################################################################################################################################################
 
-[Music-Extended]
-enabled = false
-app-name = "Music"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-excluded-patches = "'Custom package name' 'Enable debug logging' 'Restore old style library shelf' 'Return YouTube Dislike'"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "apk"
-arch = "arm64-v8a"
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+#[Music-Extended]
+#excluded-patches = "'Custom package name' 'Enable debug logging' 'Restore old style library shelf' 'Return YouTube Dislike'"
 
-[YouTube-Extended]
-enabled = false
-app-name = "YouTube"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-included-patches = "'MaterialYou'"
-excluded-patches = "'Custom package name' 'Disable QUIC protocol' 'Enable debug logging' 'Enable gradient loading screen' 'Return YouTube Dislike'"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "apk"
-arch = "arm64-v8a"
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-
-[Reddit-Extended]
-enabled = false
-app-name = "Reddit"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-rv-brand = "ReVanced Extended"
-build-mode = "apk"
-arch = "arm64-v8a"
-apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
+#[YouTube-Extended]
+#included-patches = "'MaterialYou'"
+#excluded-patches = "'Custom package name' 'Disable QUIC protocol' 'Enable debug logging' 'Enable gradient loading screen' 'Return YouTube Dislike'"
