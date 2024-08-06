@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "patchName": "Translations",
+    "options": [
+      {
+        "key": "SelectedLanguages",
+        "value": "ru-rRU"
+      },
+      {
+        "key": "SelectedAppLanguages",
+        "value": "ru"
+      }
+    ]
+  },
+  {
+    "patchName": "Custom branding icon for YouTube",
+    "options": [
+      {
+        "key": "AppIcon",
+        "value": "revancify_blue"
+      }
+    ]
+  }
+]
