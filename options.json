@@ -20,5 +20,14 @@
         "value": "revancify_blue"
       }
     ]
+  },
+  {
+    "patchName": "Custom branding icon for YouTube Music",
+    "options": [
+      {
+        "key": "AppIcon",
+        "value": "revancify_blue"
+      }
+    ]
   }
 ]
