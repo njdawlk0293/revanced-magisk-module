@@ -1,13 +1,26 @@
 [
   {
-    "patchName": "Translations",
+    "patchName": "Translations for YouTube",
     "options": [
       {
-        "key": "SelectedLanguages",
+        "key": "SelectedTranslations",
         "value": "ru-rRU"
       },
       {
-        "key": "SelectedAppLanguages",
+        "key": "SelectedStringResources",
+        "value": "ru"
+      }
+    ]
+  },
+  {
+    "patchName": "Translations for YouTube Music",
+    "options": [
+      {
+        "key": "SelectedTranslations",
+        "value": "ru-rRU"
+      },
+      {
+        "key": "SelectedStringResources",
         "value": "ru"
       }
     ]
