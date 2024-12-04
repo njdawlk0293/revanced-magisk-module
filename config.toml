@@ -1,23 +1,26 @@
-enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
+enable-magisk-update = true
 parallel-jobs = 1
 
-# add 'enabled = false' for not patching a specific app or remove it from the config
-# see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
+patches-source = "anddea/revanced-patches"
+integrations-source = "anddea/revanced-integrations"
 
-# you can use rvmm-config-gen to generate a config
+patches-version = "dev"
+integrations-version = "dev"
+
 
 [YouTube]
-build-mode = "both"
+build-mode = "apk"
 excluded-patches = ""
 included-patches = ""
+arch = "arm64-v8a"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
 [Music]
-build-mode = "both"
-arch = "both"
+build-mode = "apk"
+arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
