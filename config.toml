@@ -1,22 +1,50 @@
-enable-magisk-update = true
+enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
 parallel-jobs = 1
 
-patches-source = "anddea/revanced-patches"
-integrations-source = "anddea/revanced-integrations"
-rv-brand = "anddea"
+# add 'enabled = false' for not patching a specific app or remove it from the config
+# see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
-patches-version = "dev"
+# you can use rvmm-config-gen to generate a config
 
-[Music-Anddea]
-enabled = true
-app-name = "Music"
-included-patches = "'Custom branding icon for YouTube Music'"
-excluded-patches = "'Enable debug logging' 'Restore old style library shelf' 'Return YouTube Dislike'"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-
-[YouTube-Anddea]
-enabled = true
-app-name = "YouTube"
-included-patches = "'Custom branding icon for YouTube' 'MaterialYou'"
-excluded-patches = "'Alternative thumbnails' 'Enable debug logging' 'Enable gradient loading screen' 'Return YouTube Dislike' 'Spoof app version'" #'Disable QUIC protocol'
+[YouTube]
+build-mode = "both"
+excluded-patches = ""
+included-patches = ""
+version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+
+[Music]
+build-mode = "both"
+arch = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+
+
+# [Music-Extended]
+# app-name = "Music"
+# patches-source = "inotia00/revanced-patches"
+# cli-source = "inotia00/revanced-cli"
+# rv-brand = "ReVanced Extended"
+# build-mode = "both"
+# arch = "both"
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+# # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+
+# [YouTube-Extended]
+# app-name = "YouTube"
+# patches-source = "inotia00/revanced-patches"
+# cli-source = "inotia00/revanced-cli"
+# rv-brand = "ReVanced Extended"
+# build-mode = "both"
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+# # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+
+# [Reddit-Extended]
+# patches-source = "inotia00/revanced-patches"
+# cli-source = "inotia00/revanced-cli"
+# rv-brand = "ReVanced Extended"
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
+# # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
