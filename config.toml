@@ -10,14 +10,14 @@ patches-version = "dev"
 cli-version = "latest"
 
 [Music-Extended]
-enabled = false
+enabled = true
 app-name = "Music"
 arch = "arm64-v8a"
 build-mode = "apk"
 included-patches = "'Custom branding icon for YouTube Music'"
 excluded-patches = "'Enable debug logging' 'Restore old style library shelf' 'Return YouTube Dislike'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-patcher-args = "-OselectedTranslations=ru-rRU -OselectedStringResources=ru -OappIcon=revancify_blue"
+patcher-args = "-e 'Translations for YouTube Music' -OselectedTranslations=ru-rRU -OselectedStringResources=ru -e 'Custom branding icon for YouTube Music' -OappIcon=revancify_blue"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
 [YouTube-Extended]
@@ -27,7 +27,7 @@ arch = "arm64-v8a"
 build-mode = "apk"
 included-patches = "'Custom branding icon for YouTube' 'MaterialYou'"
 excluded-patches = "'Alternative thumbnails' 'Enable debug logging' 'Enable gradient loading screen' 'Return YouTube Dislike' 'Spoof app version'" #'Disable QUIC protocol'
-patcher-args = "-OselectedTranslations=ru-rRU -OselectedStringResources=ru -OappIcon=revancify_blue"
+patcher-args = "-e 'Translations for YouTube' -OselectedTranslations=ru-rRU -OselectedStringResources=ru -e 'Custom branding icon for YouTube' -OappIcon=revancify_blue"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
 [Reddit-Extended]
