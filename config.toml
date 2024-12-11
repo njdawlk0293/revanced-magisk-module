@@ -1,7 +1,7 @@
 enable-magisk-update = true
 parallel-jobs = 1
 
-patches-source = "anddea/revanced-patches"
+patches-source = "inotia00/revanced-patches"
 #cli-source = "j-hc/revanced-cli"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "anddea"
