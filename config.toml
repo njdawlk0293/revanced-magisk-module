@@ -1,16 +1,16 @@
 enable-magisk-update = true
 parallel-jobs = 1
 
-#patches-source = "anddea/revanced-patches"
-patches-source = "inotia00/revanced-patches"
-cli-source = "inotia00/revanced-cli"
-#rv-brand = "anddea"
+patches-source = "anddea/revanced-patches"
+#patches-source = "inotia00/revanced-patches"
+#cli-source = "inotia00/revanced-cli"
+rv-brand = "anddea"
 
 patches-version = "dev"
 cli-version = "latest"
 
 [Music-Extended]
-enabled = false
+enabled = true
 app-name = "Music"
 arch = "arm64-v8a"
 build-mode = "apk"
@@ -20,7 +20,7 @@ patcher-args = "-e 'Translations for YouTube Music' -OselectedTranslations=ru-rR
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 
 [YouTube-Extended]
-enabled = false
+enabled = true
 app-name = "YouTube"
 arch = "arm64-v8a"
 build-mode = "apk"
@@ -34,7 +34,7 @@ enabled = true
 arch = "arm64-v8a"
 #version = "2025.02.0"
 build-mode = "apk"
-rv-brand = "ReVanced Extended"
+#rv-brand = "ReVanced Extended"
 apkmirror-dpi = "120-640dpi"
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
 uptodown-dlurl = "https://reddit-official-app.ru.uptodown.com/android"
