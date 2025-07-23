@@ -43,8 +43,7 @@ build-mode = "apk"
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 uptodown-dlurl = "https://reddit-official-app.ru.uptodown.com/android"
-apkmirror-dpi = "120-640dpi"
-apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
+#apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
 
 [Twitter]
 enabled = false
