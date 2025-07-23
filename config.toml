@@ -1,6 +1,5 @@
 enable-magisk-update = false
 parallel-jobs = 1
-remove-rv-integrations-checks = true
 
 patches-source = "anddea/revanced-patches"
 rv-brand = "ReVanced Extended"
@@ -13,7 +12,6 @@ enabled = true
 app-name = "Music"
 arch = "arm64-v8a"
 build-mode = "apk"
-#included-patches = ""
 excluded-patches = "'Certificate spoof' 'Change share sheet' 'Change start page' 'Disable DRC audio' 'Disable QUIC protocol' 'Enable OPUS codec' 'Enable debug logging' 'Restore old style library shelf' 'Return YouTube Dislike' 'Return YouTube Username' 'Spoof app version' 'Watch history'"
 patcher-args = "-e 'Settings for YouTube Music' -OrvxSettingsLabel='Revanced Extended' -e 'Translations for YouTube Music' -OselectedTranslations=ru-rRU -OselectedStringResources=ru -e 'GmsCore support' -OcheckGmsCore=false -e 'Custom branding icon for YouTube Music' -OappIcon=revancify_blue"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
@@ -23,33 +21,30 @@ enabled = true
 app-name = "YouTube"
 arch = "arm64-v8a"
 build-mode = "apk"
-#included-patches = "'MaterialYou'"
 excluded-patches = "'Alternative thumbnails' 'Bypass image region restrictions' 'Change share sheet' 'Change start page' 'Custom Shorts action buttons' 'Disable QUIC protocol' 'Disable forced auto audio tracks' 'Disable haptic feedback' 'Disable layout updates' 'Enable OPUS codec' 'Enable debug logging' 'Enable gradient loading screen' 'Hide feed flyout menu' 'Hook YouTube Music actions' 'Hook download actions' 'Return YouTube Dislike' 'Return YouTube Username' 'Spoof app version' 'Spoof watch history'"
 patcher-args = "-e 'Settings for YouTube' -OrvxSettingsLabel='Revanced Extended' -e 'Translations for YouTube' -OselectedTranslations=ru-rRU -OselectedStringResources=ru -e 'GmsCore support' -OcheckGmsCore=false -e 'Custom branding icon for YouTube' -OappIcon=revancify_blue -e 'MaterialYou'"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 
 [YouTube-Extended-inotia00]
 enabled = true
-app-name = "YouTube"
+app-name = "YouTube-Inotia00"
 arch = "arm64-v8a"
 build-mode = "apk"
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
-#included-patches = "'MaterialYou'"
-excluded-patches = "'Alternative thumbnails' 'Bypass image region restrictions' 'Change share sheet' 'Change start page' 'Custom Shorts action buttons' 'Disable QUIC protocol' 'Disable forced auto audio tracks' 'Disable haptic feedback' 'Disable layout updates' 'Enable OPUS codec' 'Enable debug logging' 'Enable gradient loading screen' 'Hide feed flyout menu' 'Hook YouTube Music actions' 'Hook download actions' 'Return YouTube Dislike' 'Return YouTube Username' 'Spoof app version' 'Spoof watch history'"
+excluded-patches = "'Alternative thumbnails' 'Bypass image region restrictions' 'Change share sheet' 'Change start page' 'Custom Shorts action buttons' 'Disable QUIC protocol' 'Disable forced auto audio tracks' 'Disable haptic feedback' 'Disable layout updates' 'Enable OPUS codec' 'Enable debug logging' 'Enable gradient loading screen' 'Hide feed flyout menu' 'Hook YouTube Music actions' 'Hook download actions' 'Return YouTube Dislike' 'Return YouTube Username' 'Spoof app version' 'Watch history'"
 patcher-args = "-e 'Settings for YouTube' -OrvxSettingsLabel='Revanced Extended' -e 'Translations for YouTube' -OselectedTranslations=ru-rRU -OselectedStringResources=ru -e 'GmsCore support' -OcheckGmsCore=false -e 'Custom branding icon for YouTube' -OappIcon=revancify_blue -e 'MaterialYou'"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 
 [Reddit-Extended]
 enabled = true
 arch = "arm64-v8a"
-#version = "2025.02.0"
 build-mode = "apk"
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
+uptodown-dlurl = "https://reddit-official-app.ru.uptodown.com/android"
 apkmirror-dpi = "120-640dpi"
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
-uptodown-dlurl = "https://reddit-official-app.ru.uptodown.com/android"
 
 [Twitter]
 enabled = false
