@@ -1,3 +1,4 @@
+Music-Extended: 8.12.53  
 Reddit-Extended: 2025.12.1  
 YouTube-Extended-anddea: 19.47.53  
 YouTube-Extended-inotia00: 19.47.53  
