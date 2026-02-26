@@ -5,7 +5,7 @@ patches-source = "anddea/revanced-patches"
 rv-brand = "ReVanced Extended"
 
 patches-version = "dev"
-# cli-version = "latest"
+cli-version = "latest"
 
 [Music-Extended-Anddea]
 enabled = true
