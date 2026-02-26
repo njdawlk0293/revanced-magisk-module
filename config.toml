@@ -8,7 +8,7 @@ patches-version = "dev"
 #cli-version = "latest"
 
 [Music-Extended-Anddea]
-enabled = true
+enabled = false
 app-name = "Music"
 arch = "arm64-v8a"
 build-mode = "apk"
