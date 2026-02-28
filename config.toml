@@ -30,7 +30,7 @@ patcher-args = "-e 'Custom branding icon for YouTube' -OappIcon=revancify_blue -
 #apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 #uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 #archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-direct-dlurl = "https://github.com/njdawlk0293/revanced-magisk-module/releases/download/130/com.google.android.youtube_20.05.46-1552692672_minAPI26.arm64-v8a.armeabi-v7a.x86.x86_64.nodpi._apkmirror.com.apk"
+direct-dlurl = "https://github.com/njdawlk0293/revanced-magisk-module/releases/download/130/com.google.android.youtube-20.05.46-all.apk"
 
 
 [YouTube-Extended-Inotia00]
