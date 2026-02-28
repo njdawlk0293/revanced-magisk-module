@@ -23,9 +23,8 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.a
 [YouTube-Extended-Anddea]
 enabled = true
 app-name = "YouTube"
-arch = "arm64-v8a"
+# arch = "arm64-v8a"
 build-mode = "apk"
-version = "latest"
 cli-source = "MorpheApp/morphe-cli"
 excluded-patches = "'Alternative thumbnails' 'Bypass image region restrictions' 'Change share sheet' 'Change start page' 'Custom Shorts action buttons' 'Disable QUIC protocol' 'Disable forced auto audio tracks' 'Disable haptic feedback' 'Disable layout updates' 'Enable OPUS codec' 'Enable debug logging' 'Enable gradient loading screen' 'Hide feed flyout menu' 'Hook YouTube Music actions' 'Hook download actions' 'Return YouTube Dislike' 'Return YouTube Username' 'Spoof app version' 'Spoof watch history'"
 patcher-args = "-e 'Custom branding icon for YouTube' -OappIcon=revancify_blue -e 'GmsCore support' -OcheckGmsCore=false -e 'Settings for YouTube' -OrvxSettingsLabel='Revanced Extended' -e 'Translations for YouTube' -OselectedTranslations=ru-rRU -OselectedStringResources=ru -e 'MaterialYou' -e 'Theme'"
